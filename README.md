@@ -1,6 +1,6 @@
 # Windows lockscreen image extractor
 
-Windows 10 spotlight often turns up some great pictures that you might want to save permanently. For example, to use as a desktop background. This simple Python script for automatically extracts these images from the hellish depths of `AppData/Local` and saves them to your `Pictures` folder.
+Windows 10 spotlight often turns up some great pictures that you might want to save permanently. For example, to use as a desktop background. This simple Python script automatically extracts these images from the hellish depths of `AppData/Local` and saves them to your `Pictures` folder.
 
 ## How it works
 The script performs the following steps:
