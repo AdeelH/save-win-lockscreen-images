@@ -6,7 +6,8 @@ Windows 10 spotlight often turns up some great pictures that you might want to s
 The script performs the following steps:
 1. Detect files in `C:/Users/{username}/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets`.
 2. Filter out irrelevant (smaller than 250 KB) files.
-3. Copy over these files to `C:/Users/{username}/Pictures/lockscreen_images` with the `.jpg` extension added.
+3. Copy over these files to `C:/Users/{username}/Pictures/lockscreen_images/{current_date}/` with the `.jpg` extension added.
+4. Open `C:/Users/{username}/Pictures/lockscreen_images/{current_date}/` in Windows Explorer.
 
 ## Usage
 
