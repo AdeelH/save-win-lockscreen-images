@@ -13,7 +13,7 @@ username = os.getlogin()
 src_dir = Path(f'C:/Users/{username}/AppData/Local/Packages/Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy/LocalState/Assets') # yapf: disable
 curr_date = datetime.today()
 dst_dir = Path(
-    f'C:/Users/{username}/Pictures/lockscreen_images/')
+    f'C:/Users/{username}/Pictures/lockscreen_images/{curr_date:%Y_%m_%d}')
 
 if not os.path.exists(src_dir):
     raise FileNotFoundError(f'Source path {src_dir} not found. '
