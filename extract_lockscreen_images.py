@@ -3,7 +3,6 @@ import shutil
 from pathlib import Path
 from datetime import datetime
 from PIL import Image
-from PIL.ExifTags import TAGS
 
 # There are usually a bunch of smaller images in the same place
 # that are not lockscreen images. We use this size threshold to detect them.
